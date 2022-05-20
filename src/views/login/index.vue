@@ -34,7 +34,7 @@ const INITIAL_DATA = {
   password: "admin"
 };
 
-const { login } = useUserStore();
+const { login, token, userInfo } = useUserStore();
 const formData = ref({ ...INITIAL_DATA });
 
 const onReset = () => {

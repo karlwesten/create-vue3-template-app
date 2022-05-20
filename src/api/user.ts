@@ -1,8 +1,11 @@
 import { instance } from "@/utils/request";
 
-export function userLogin(params: object) {
-  return {
-    name: '张三',
-    age: 18
-  }
+interface Res {
+  token: string;
+}
+
+export function userLogin(): Promise<Res> {
+  return new Promise((resolve, reject) => {
+    resolve({ token: "123456" });
+  });
 }

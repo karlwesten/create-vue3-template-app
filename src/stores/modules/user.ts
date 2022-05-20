@@ -1,3 +1,4 @@
+import { userLogin } from "@/api/user";
 import { defineStore } from "pinia"; // 定义一个状态
 import { getToken, setToken, removeToken } from "@/utils/auth";
 
@@ -20,9 +21,15 @@ export const useUserStore = defineStore("user", {
 
   // 方法
   actions: {
-    login() {
-      // 真实登录流程
-      setToken("123");
+    async login() {
+      // 执行真实登录流程，并且缓存 token
+      try {
+        const { token } = await userLogin();
+        this.token = token;
+        setToken(token);
+      } catch (err) {
+        console.log(err);
+      }
     },
 
     getUserInfo() {
