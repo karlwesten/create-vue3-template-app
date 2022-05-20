@@ -38,6 +38,8 @@ export const useUserStore = defineStore("user", {
     },
 
     signOut() {
+      this.token = '';
+      this.userInfo = { roles: [] }
       removeToken();
     }
   }

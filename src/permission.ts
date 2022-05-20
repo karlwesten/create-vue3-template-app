@@ -5,7 +5,6 @@ import { whiteListRouters } from "@/config/global";
 // 全局路由守卫
 router.beforeEach(async (to, from, next) => {
   const { token, userInfo, signOut, getUserInfo } = useUserStore();
-  console.log(token);
 
   if (token) {
     if (to.path === "/login") {

@@ -46,7 +46,6 @@ const onSubmit = ({ validateResult, firstError }) => {
     login();
     router.push('/');
   } else {
-    console.log("Validate Errors: ", firstError, validateResult);
     MessagePlugin.warning(firstError);
   }
 };
