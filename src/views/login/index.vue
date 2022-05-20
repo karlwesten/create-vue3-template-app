@@ -23,9 +23,9 @@
 </template>
 
 <script lang="ts" setup>
+import { ref } from "vue";
 import router from "@/router";
-import { setCookie } from "@/utils/cookie";
-import { defineComponent, ref } from "vue";
+import { useUserStore } from "@/stores";
 import { MessagePlugin } from "tdesign-vue-next";
 import { DesktopIcon, LockOnIcon } from "tdesign-icons-vue-next";
 
@@ -34,6 +34,7 @@ const INITIAL_DATA = {
   password: "admin"
 };
 
+const { login } = useUserStore();
 const formData = ref({ ...INITIAL_DATA });
 
 const onReset = () => {
@@ -41,9 +42,9 @@ const onReset = () => {
 };
 
 const onSubmit = ({ validateResult, firstError }) => {
-  if (validateResult === true) {
-    setCookie('12345');
-    router.push('/home');
+  if (validateResult) {
+    login();
+    router.push('/');
   } else {
     console.log("Validate Errors: ", firstError, validateResult);
     MessagePlugin.warning(firstError);

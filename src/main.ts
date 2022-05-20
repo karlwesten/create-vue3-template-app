@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import { createPinia } from 'pinia' // 状态管理 pinia
+import store from "@/stores";
 
 import App from './App.vue' // 根组件
 import router from './router' // 路由
@@ -12,7 +12,7 @@ import './permission'; // 全局路由
 
 const app = createApp(App)
 
-app.use(createPinia())
+app.use(store)
 app.use(router)
 app.use(TDesign)
 
