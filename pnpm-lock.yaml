@@ -12,6 +12,7 @@ specifiers:
   npm-run-all: ^4.1.5
   pinia: ^2.0.17
   prettier: ^2.7.1
+  tdesign-icons-vue-next: ^0.1.5
   tdesign-vue-next: ^0.20.1
   typescript: ~4.7.4
   vite: ^3.0.4
@@ -21,6 +22,7 @@ specifiers:
 
 dependencies:
   pinia: 2.0.19_j6bzmzd4ujpabbp5objtwxyjp4
+  tdesign-icons-vue-next: 0.1.5_vue@3.2.37
   tdesign-vue-next: 0.20.1_vue@3.2.37
   vue: 3.2.37
   vue-router: 4.1.3_vue@3.2.37
