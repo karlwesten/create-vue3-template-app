@@ -16,4 +16,10 @@ const router = createRouter({
   ],
 });
 
+router.beforeEach((to, from) => {
+  if (to.name === "home") {
+    return { name: "Login" };
+  }
+});
+
 export default router;
