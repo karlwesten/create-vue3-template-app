@@ -2,7 +2,11 @@
 
 <img alt="Logo" align="right" src="./src/assets/logo.png" width="20%" />
 
-Fast Create Vue3 Project, Out-of-the-Box Ready, Based on Community Best Practices.
+Fast create Vue3 project.
+
+* Out of the box feature.
+* No tedious configuration.
+* Based on community best practices.
 
 ## Install
 
