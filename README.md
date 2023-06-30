@@ -1,8 +1,6 @@
 # Create Vue3 Template App [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-<img alt="Logo" align="right" src="./src/assets/logo.png" width="20%" />
-
-
+<img alt="Logo" align="right" src="./src/assets/logo.png" width="16%" />
 
 Fast create Vue3 project.
 
