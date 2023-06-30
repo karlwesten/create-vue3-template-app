@@ -20,6 +20,20 @@ npm install
 npm run dev
 ```
 
+If you prefer to do it manually with the cleaner git history.
+
+```bash
+npx degit karlwesten/create-vue3-template-app my-vue3-app
+
+cd my-vue3-app
+
+npm install
+
+npm run dev
+```
+
+
+
 ## Related Efforts
 
 * [vitesse](https://github.com/antfu/vitesse) - 🏕 Opinionated Vite + Vue Starter Template
