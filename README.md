@@ -32,8 +32,8 @@ npx degit niyaco/create-vue3-template-app my-vue3-app
 
 ## Maintainers
 
-[@Niyaco](https://github.com/niyaco).
+[@Takuya](https://github.com/niyaco).
 
 ## License
 
-[MIT](LICENSE) © Niyaco
+[MIT](LICENSE) © Takuya
