@@ -1,6 +1,6 @@
 # Create Vue3 Template App
 
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme) [![code style](https://antfu.me/badge-code-style.svg)](https://github.com/antfu/eslint-config)
 
 Fast create Vue3 project.
 
@@ -32,7 +32,7 @@ npx degit niyaco/create-vue3-template-app my-vue3-app
 
 ## Maintainers
 
-[@Takuya](https://github.com/niyaco).
+[@Takuya](https://github.com/niyaco)
 
 ## License
 
