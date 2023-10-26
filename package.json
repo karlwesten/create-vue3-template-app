@@ -2,14 +2,15 @@
   "name": "create-vue3-template-app",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "run-p type-check build-only",
+    "lint": "eslint .",
     "preview": "vite preview",
     "build-only": "vite build",
-    "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
+    "lint:fix": "eslint . --fix",
+    "build": "run-p type-check build-only",
+    "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
   },
   "dependencies": {
     "@ant-design/icons-vue": "^7.0.1",
@@ -22,6 +23,7 @@
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "1.0.0-beta.29",
     "@rushstack/eslint-patch": "^1.5.1",
     "@tsconfig/node18": "^18.2.2",
     "@types/node": "^20.8.9",
@@ -31,10 +33,8 @@
     "@vue/eslint-config-typescript": "^12.0.0",
     "@vue/tsconfig": "^0.4.0",
     "eslint": "^8.52.0",
-    "eslint-plugin-vue": "^9.18.0",
     "less": "^4.2.0",
     "npm-run-all": "^4.1.5",
-    "prettier": "^3.0.3",
     "typescript": "~5.2.2",
     "unplugin-auto-import": "^0.16.6",
     "unplugin-vue-components": "^0.25.2",
