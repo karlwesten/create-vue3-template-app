@@ -1,4 +1,4 @@
-# Create Vue3 Template App
+# Create Vue3 App
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme) [![code style](https://antfu.me/badge-code-style.svg)](https://github.com/antfu/eslint-config)
 
