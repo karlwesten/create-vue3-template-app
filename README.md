@@ -11,7 +11,7 @@ Fast create Vue3 project.
 ## Install
 
 ```bash
-git clone git@github.com:niyaco/create-vue3-app.git
+git clone git@github.com:rofixro/create-vue3-app.git
 
 cd create-vue3-app
 
@@ -23,17 +23,13 @@ npm run dev
 If you prefer to do it manually with the cleaner git history.
 
 ```bash
-npx degit niyaco/create-vue3-app my-vue3-app
+npx degit rofixro/create-vue3-app my-vue3-app
 ```
 
 ## Related Efforts
 
 * [vitesse](https://github.com/antfu/vitesse) - 🏕 Opinionated Vite + Vue Starter Template
 
-## Maintainers
-
-[@Niyaco](https://github.com/niyaco)
-
 ## License
 
-[MIT](LICENSE) © Niyaco
+[MIT](LICENSE)
