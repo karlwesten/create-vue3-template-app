@@ -1,0 +1,10 @@
+import { defineConfig } from "@rsbuild/core";
+import { pluginVue } from "@rsbuild/plugin-vue";
+
+export default defineConfig({
+  plugins: [pluginVue()],
+  html: { 
+    title: "create-vue3-app",
+    favicon: './src/assets/favicon.ico',
+   },
+});
